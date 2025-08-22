@@ -10,7 +10,7 @@ INSTALL_DIR="${HOME}/xmrig_miner"
 # --- Suas Informações de Mineração ---
 WALLET_ADDRESS="SUA_CARTEIRA_MONERO_AQUI"
 POOL_URL="pool.supportxmr.com:443"
-WORKER_NAME="meu-servidor-$(hostname -s)" # Usa o nome do host como nome do worker
+WORKER_NAME="meu-servidor-$(hostname -s)"
 
 # --- Comportamento do Controlador ---
 # O script vai minerar se a CPU estiver MAIS ociosa que este valor (%).
