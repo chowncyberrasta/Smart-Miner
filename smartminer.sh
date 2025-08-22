@@ -14,7 +14,7 @@ WORKER_NAME="meu-servidor-$(hostname -s)" # Usa o nome do host como nome do work
 
 # --- Comportamento do Controlador ---
 # O script vai minerar se a CPU estiver MAIS ociosa que este valor (%).
-IDLE_THRESHOLD=80
+IDLE_THRESHOLD=90
 
 # Número de threads da CPU para usar.
 CPU_THREADS=2
